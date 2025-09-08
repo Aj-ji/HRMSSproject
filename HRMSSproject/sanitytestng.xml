@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="sannityTest">
+    <classes>
+      <class name="testng1.NewTest5"/>
+      <class name="testng1.NewTest6"/>
+    </classes>
+  </test> <!-- sannityTest -->
+</suite> <!-- Suite -->
+
+
+
+
+
+

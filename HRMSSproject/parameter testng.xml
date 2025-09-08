@@ -1,0 +1,11 @@
+
+<suite name="parameter Suite">
+  <test thread-count="5" name="parameter Test">
+  
+  <parameter name="username" value="pramodh"/>
+  <parameter name="password" value="Abcde12345$"/>
+    <classes>
+      <class name="testng1.TestParameters"/>
+    </classes>
+  </test> <!-- parameter Test -->
+</suite> <!-- parameter Suite -->

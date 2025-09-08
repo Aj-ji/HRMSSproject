@@ -1,0 +1,20 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Testss">
+  <groups>
+  <run>
+  <include name="Smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="testng1.NewTest7"/>
+      <class name="testng1.NewTest8"/>
+    </classes>
+    
+     <methods>
+    <include name="composeMail"/>
+    </methods>
+    
+   
+  </test> <!-- Testss -->
+</suite> <!-- Suite -->

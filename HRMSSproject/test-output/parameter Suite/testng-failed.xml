@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameter Suite]">
+  <test thread-count="5" name="parameter Test(failed)">
+    <parameter name="password" value="Abcde12345$"/>
+    <parameter name="username" value="pramodh"/>
+    <classes>
+      <class name="testng1.TestParameters">
+        <methods>
+          <include name="testcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng1.TestParameters -->
+    </classes>
+  </test> <!-- parameter Test(failed) -->
+</suite> <!-- Failed suite [parameter Suite] -->

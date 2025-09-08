@@ -1,0 +1,24 @@
+
+
+<suite name="PSuite" parallel="tests" thread-count="5">
+      <test name="Test in Firefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="SeleniumJavaTests.Test_Parallel" />
+        </classes>
+    </test>
+    <test name="Test in Google Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="SeleniumJavaTests.Test_Parallel" />
+        </classes>
+    </test>
+   
+        <classes>
+            <class name="SeleniumJavaTests.Test_Parallel" />
+        </classes>
+
+ 
+</suite> <!-- PSuite -->
+
+

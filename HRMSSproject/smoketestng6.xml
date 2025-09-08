@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Smoketesting6">
+  <groups>
+  <run>
+  
+  <include name ="Smoke"/>
+  </run>
+  
+  
+  </groups>
+    <classes>
+      <class name="testng1.NewTest5"/>
+      <class name="testng1.NewTest6"/>
+    </classes>
+  </test> <!-- Smoketesting6 -->
+</suite> <!-- Suite -->

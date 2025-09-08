@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="SmokeTest">
+    <classes>
+      <class name="TestNg.NewTest1"/>
+      <class name="TestNg.NewTest2"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- Suite -->

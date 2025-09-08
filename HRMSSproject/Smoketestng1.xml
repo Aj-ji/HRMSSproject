@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="SmokwTest1">
+    <classes>
+      <class name="testng1.NewTest4"/>
+      <class name="testng1.NewTest3"/>
+    </classes>
+  </test> <!-- SmokwTest1 -->
+</suite> <!-- Suite -->
